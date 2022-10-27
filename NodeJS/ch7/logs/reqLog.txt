@@ -1,0 +1,7 @@
+20221027	19:50:59	396673c3-e1cd-4ce0-9f8a-bca221d4e61e	GET	undefined	/
+20221027	19:51:00	52b6198c-577a-4be6-85ef-6be144d1ae73	GET	undefined	/css/style.css
+20221027	19:51:00	da4f8469-9c4f-4f54-a74a-0c677c14ba7d	GET	undefined	/favicon.ico
+20221027	19:53:14	d3e1774d-77c2-4703-b208-52283c3aaae6	GET	undefined	/
+20221027	19:53:14	a927721b-2dad-4c8f-8e58-adea57636eda	GET	undefined	/css/style.css
+20221027	19:55:55	1389bef4-fe6f-45e4-9dae-3edcd1761ffd	GET	undefined	/milo
+20221027	19:55:55	dc53d150-32b1-44ac-b26e-e2a44e1aa784	GET	undefined	/css/style.css
