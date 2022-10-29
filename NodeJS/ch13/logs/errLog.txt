@@ -1,0 +1,12 @@
+20221025	19:39:46	55561bdc-fa6b-49f4-b56b-677460f35ad2	GET	undefined	/
+20221025	19:39:46	517e95fc-7ea7-4dd1-a90a-b3da821de4dd	GET	undefined	/css/style.css
+20221025	19:42:07	acd6342d-c031-4baa-aa6d-b79b6577127b	GET	undefined	/
+20221025	19:42:07	0613f7a4-042d-4935-8968-881aa7a9fba4	GET	undefined	/css/style.css
+20221025	19:42:59	467afb8c-6156-42d0-abfa-52a393600a3a	OPTIONS	https://www.google.com	/
+20221025	19:42:59	79138e02-231f-43b7-83e9-aeb71b9b7937	GET	https://www.google.com	/
+20221025	19:45:27	f2a9cf17-e28e-411a-8d63-5b487495b58e	OPTIONS	https://www.google.com	/
+20221025	19:45:27	7fd493a2-9d7f-466e-953f-b44b96f055b1	GET	https://www.google.com	/
+20221027	21:03:34	775f7266-ea87-48f6-b36c-460e1253352e	SyntaxError: Unexpected end of JSON input
+20221028	17:07:35	2a693bfc-631b-460d-9cb1-83697a89b82a	TypeError: Cannot read properties of undefined (reading 'username')
+20221028	17:08:04	ef62bcff-cda5-4ff8-9fc3-f178e5077f7b	TypeError: Cannot read properties of undefined (reading 'username')
+20221028	17:09:11	fca873f9-7491-4fbd-90a7-96e2f3ee56fb	TypeError: Cannot read properties of undefined (reading 'username')
