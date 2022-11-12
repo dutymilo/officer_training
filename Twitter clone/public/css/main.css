@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.page-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 300px;
+}
+
+.left-sidebar {
+  flex: 1;
+  padding: 10px 30px 10px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.logo img {
+  width: 30px;
+  margin: 0 45px;
+}
+
+.nav-button {
+  padding: 20px 0 20px 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.main-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+h2 {
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.create-tweet {
+  padding: 20px 10px;
+  display: flex;
+  height: 240px;
+  border: 1px solid rgb(248, 248, 248);
+}
+
+.pfp-img img {
+  margin-right: 10px;
+  width: 45px;
+  border-radius: 22.5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex: 1;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  font-size: 20px;
+  border: 0;
+  outline: 0;
+}
+
+.form input {
+  border-bottom: 1px solid rgb(248, 248, 248);
+}
+
+.form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.form button {
+  width: 90px;
+  background: rgb(29, 155, 240);
+  border: 0;
+  padding: 12px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tweet-feed {
+  margin-top: 10px;
+  display: grid;
+  gap: 10px;
+}
+
+.tweet-container {
+  padding: 10px;
+  display: flex;
+  border: 1px solid rgb(248, 248, 248);
+}
+
+.profile-img img {
+  margin-right: 10px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.tweet-username {
+  font-weight: 700;
+}
+
+.right-sidebar {
+  flex: 1;
+  padding: 10px 20px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 20px;
+  height: 50px;
+}
+
+.search input {
+  width: 100%;
+  border: 0;
+  background-color: rgb(248, 248, 248);
+}
+
+.search-icon {
+  width: 30px;
+}
+
+.trending {
+  margin-top: 15px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 15px;
+  padding: 2px 15px;
+}
+
+.trending-headline-img {
+  width: 68px;
+  height: 68px;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.trending-tag {
+  font-size: 12px;
+  font-weight: thin;
+  color: gray;
+  margin: 3px 0;
+}
+
+.trending-headline {
+  display: flex;
+  justify-content: center;
+}
+
+.trending-headline-text {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 15px;
+}

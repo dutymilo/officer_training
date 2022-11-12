@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="../javascript/index.js"></script>
+
+    <title>Home / Twitter</title>
+  </head>
+
+  <body>
+    <div class="page-container">
+      <div class="left-sidebar">
+        <div class="logo">
+            <img src="../public/images/bird-icon.png">
+        </div>
+        <nav class="left-nav">
+          <div class="nav-button">Home</div>
+          <div class="nav-button">Explore</div>
+          <div class="nav-button">Notifications</div>
+          <div class="nav-button">Messages</div>
+          <div class="nav-button">Bookmarks</div>
+          <div class="nav-button">Lists</div>
+          <div class="nav-button">Profile</div>
+          <div class="nav-button">More</div>
+        </nav>
+      </div>
+
+      <div class="main-content">
+        <div class="top">
+          <h2>Home</h2>
+        </div>
+        <div class="create-tweet">
+          <div class="pfp-img">
+            <img src="../public/images/blank-pfp.webp">
+          </div>
+          <form class="form">
+            <input type="text" placeholder="Username">
+            <textarea placeholder="What's happening?"></textarea>
+            <button type="submit">Tweet</button>
+          </form>
+        </div>
+        <div class="tweet-feed" id="tweets">
+        </div>
+      </div>
+
+      <div class="right-sidebar">
+        <div class="search">
+          <img class ="search-icon" src="../public/images/search-icon.png">
+          <input type="text" placeholder=" Search Twitter">
+        </div>
+
+      <div class="trending">
+        <h2>What's happening</h2>
+        <div class="trending-content">
+          <p class="trending-tag">News</p>
+          <div class="trending-headline">
+            <p class="trending-headline-text">
+              Godzilla destroys Houston, TA skyscraper
+            </p>
+            <img
+              class="trending-headline-img"
+              src="../public/images/godzilla.jpg"
+            />
+          </div>
+        </div>
+
+        <div class="trending-content">
+          <p class="trending-tag">Cats</p>
+          <div class="trending-headline">
+            <p class="trending-headline-text">
+              Look at my little kitty! Isn't he such a cutie? :)
+            </p>
+            <img class="trending-headline-img" src="../public/images/joe.jpg" />
+          </div>
+        </div>
+
+        <div class="trending-content">
+          <p class="trending-tag">Gaming News</p>
+          <div class="trending-headline">
+            <p class="trending-headline-text">
+              Insiders at Game Dev Inc. say that a new Skringledoo sequel can be
+              expected in 2024
+            </p>
+            <img
+              class="trending-headline-img"
+              src="../public/images/skringledoo.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
